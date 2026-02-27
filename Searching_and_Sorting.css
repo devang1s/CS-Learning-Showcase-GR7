@@ -1,0 +1,10 @@
+body {
+    background-color:rgb(0, 255, 160);
+    text-align: center;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left-align{
+    text-align:left;
+}

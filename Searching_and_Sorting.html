@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Searching_and_Sorting.css">
+        <title>Unit 6 - Searching and Sorting Algorithms</title>
+    </head>
+    <body>
+        <h1>
+            Searching and Sorting Algorithms
+        </h1>
+        <h2 class="left-align">
+            Linear search
+        </h2>
+        <p class="left-align">
+            Flowchart:
+            <br>
+
+            <img src="flowchart.jpeg" width="50%">
+
+            <br>
+            Algorithm:
+            <br>
+            Step 1: Accept the element to be searched from the user. (Similar to the channel to be searched.)
+            <br>
+            Step 2: Let i = 0 where i denotes the index of the element currently being searched. (Similar to the channel number starting from 0.)
+            <br>
+            Step 3: Is i > n? (Have we searched the last element in the list already? / Similar to checking if channel Number has exceeded Last.)
+            <br>
+            If yes:
+            <br>
+            (a) Display "Element not in list".
+            <br>
+            (b) Go to Step 5.
+            <br>
+            If no:
+            <br>
+            (a) Go to step 4.
+            <br>
+            Step 4: Is the element in i equal to the desired element?
+            <br>
+            If yes:
+            <br>
+            (a) Display, "Element Found at", i.
+            <br>
+            (b) Go to Step 5.
+            <br>
+            If no:
+            <br>
+            (a) i = i + 1
+            <br>
+            (b) Go to Step 3.
+            <br>
+            Step 5: Stop.
+            <br>
+            <br>
+            <br>
+            Python program:
+            
+            <iframe src="https://trinket.io/embed/python/1c5557cc148a?toggleCode=true" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            <h2 class="left-align">
+                Bubble sort
+            </h2>
+            <p class="left-align">
+                Algorithm:
+                <br>
+                Step 1: Let i= 1 (loop variable that indicates number of passes), 1 (loop variable to control swaps within a pass)
+                <br>
+                Step 2: Is i > n-1? (Have we completed n-1 passes?)
+                <br>
+                If yes:
+                <br>
+                (a) Display "List is sorted"
+                <br>
+                (b) Go to Step 7
+                <br>
+                If no:
+                <br>
+                (a) Go to Step 3.
+                <br>
+                Step 3: Compare element at j with its neighbour
+                <br>
+                Step 4: Is the neighbour smaller?
+                <br>
+                If yes:
+                <br>
+                (a) Swap element at j with neighbour
+                <br>
+                (b) Go to Step 5
+                <br>
+                If no:
+                <br>
+                (a) Go to Step 5
+                <br>
+                Step 5: j = j +
+                <br>
+                Step 6: Have we completed all the swaps in this pass?
+                <br>
+                If yes:
+                <br>
+                (a) i = i + 1
+                <br>
+                (b) Go to Step 2
+                <br>
+                If no:
+                <br>
+                Go to Step 3
+                <br>
+                Step 7: Stop
+                <br>
+                Python code:
+
+                <iframe src="https://trinket.io/embed/python/1d9986b69dd1?toggleCode=true" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            </p>
+        </p>
+    </body>
+</html>
